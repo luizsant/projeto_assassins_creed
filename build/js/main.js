@@ -1,0 +1,1 @@
+window.addEventListener("scroll",function(){var ಠ_ಠ344=document.getElementById("menu1"),t=document.getElementById("menu2");document.documentElement.scrollTop>ಠ_ಠ344.offsetHeight?(ಠ_ಠ344.style.ಠ_ಠ345="-60px",t.style.ಠ_ಠ345="0"):(ಠ_ಠ344.style.ಠ_ಠ345="0",t.style.ಠ_ಠ345="60px")});

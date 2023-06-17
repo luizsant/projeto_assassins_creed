@@ -1,7 +1,29 @@
+@use 'header';
+@use 'hero';
+@use 'ultimosjogos'
+;
+@font-face {
+    font-family: Ubisoft Sans;
+    src: url(/fonts/fonts/Ubisoft\ Sans\ Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ubisoft Sans;
+    src: url(/fonts/fonts/Ubisoft\ Sans\ Bold.woff2);
+    font-weight: 700;
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Ubisoft Sans';
     
-
 }
+
+.hero-spacer {
+    height: 90vh; /* Ajuste este valor para a altura da seção hero */
+}
+
