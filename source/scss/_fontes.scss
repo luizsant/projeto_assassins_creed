@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Ubisoft Sans';
+    src: url('/fonts/ubisoftsans-regular.otf') format('opentype'); /* aqui foi alterado o formato para 'opentype' */
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Ubisoft Sans';
+    src: url('/fonts/ubisoftsans-bold.otf') format('opentype'); /* aqui foi alterado o formato para 'opentype' */
+    font-weight: bold;
+    font-style: normal;
+}
+  
+body {
+    font-family: 'Ubisoft Sans', sans-serif;
+}

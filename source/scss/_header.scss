@@ -1,69 +1,65 @@
 body {
-    padding-top: 120px; /* Evita o conteúdo do corpo ficar escondido por trás dos menus */
-} 
-
-.menu {
+    padding-top: 120px;
+  }
+  
+  .menu {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
-    transition: top 0.3s ease-in-out;
+    transition: top .3s ease-in-out;
     background-color: #f8f8f8;
     height: 60px;
     line-height: 60px;
-    display: flex; /* Acrescentado */
-    justify-content: center; /* Acrescentado */
+    display: flex;
+    justify-content: center;
     border-bottom: 1px solid #e7e7e7;
-}
-
-    
-
-.logo {
+  }
+  
+  .logo {
     position: absolute;
-    left: 50px; /* Aqui você pode ajustar a distância do logo para a esquerda */
-    height: 35px; /* Deve ser igual à altura do menu */
+    left: 50px;
     height: 35px;
-    top: 50%; /* Acrescentado */
-    transform: translateY(-50%); /* Acrescentado */
-}
-
-.logo-two {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .logo-two {
     position: absolute;
-    left: 80px; /* Aqui você pode ajustar a distância do logo para a esquerda */
-    height: 35px; /* Deve ser igual à altura do menu */
+    left: 80px;
     height: 35px;
-    top: 50%; /* Acrescentado */
-    transform: translateY(-50%); /* Acrescentado */
-}
-
-.menu ul {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .menu ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
-
-.menu ul li {
+  }
+  
+  .menu ul li {
     display: inline;
     margin: 0 15px;
-}
-
-.menu ul li a {
+  }
+  
+  .menu ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-#menu2 {
-    top: 60px; /* Correspondente à altura do #menu1 */
-    background-color: #2e2d2d; /* Novo: Define a cor de fundo do menu2 como cinza */
+  }
+  
+  #menu2 {
+    top: 60px;
+    background-color: #2e2d2d;
     border: none;
-
-    ul li a {
-        color: #ffffff !important; 
-        font-weight: bold;
-        text-transform: uppercase;
-
-    }
-}
+  }
+  
+  #menu2 ul li a {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./build/scss/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    
  
     <title>Assassin's Creed</title>
 </head>
-<body>
-</head>
+
 <body>
   
     <header class="header">
@@ -59,24 +61,78 @@
       <div class="game-cards">
         <div class="card">
           <img src="/build/images/ultimos jogos/ultimo1.webp" alt="Nome do Jogo">
-          <h2>Nome do Jogo</h2>
-          <p>Descrição do Jogo</p>
+          <h2>Assassin's Creed Mirage</h2>
+          <p class="descricao">Em Assassin's Creed Mirage você é Basim, um astucioso ladino de rua com visões aterradoras que está em busca de respostas e de justiça.</p>
           <button>Saiba Mais</button>
       </div>
       <div class="card">
         <img src="/build/images/ultimos jogos/ultimo2.avif" alt="Nome do Jogo">
-        <h2>Nome do Jogo</h2>
-        <p>Descrição do Jogo</p>
+        <h2>Assassin's Creed Nexus VR</h2>
+        <p class="descricao">Viva um papel crucial na história com esta aventura exclusiva para realidade virtual.</p>
         <button>Saiba Mais</button>
     </div>
     <div class="card">
       <img src="/build/images/ultimos jogos/ultimo3.avif" alt="Nome do Jogo">
-      <h2>Nome do Jogo</h2>
-      <p>Descrição do Jogo</p>
+      <h2>Assassin's Creed Codename Jade</h2>
+      <p class="descricao">Crie seu próprio assassino e salte para Assassin's Creed Codename Jade, um jogo de mundo aberto</p>
       <button>Saiba Mais</button>
   </div>
       </div>
     </section>
+    <section class="slide-section">
+      <div class="titulo">
+        <h1>Todos os jogos</h1>
+      </div>
+      <section class="slide-section">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo1.webp" alt="Imagem 1">
+              <div class="caption">Legenda da Imagem 1</div>
+            </div>
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo2.avif" alt="Imagem 2">
+              <div class="caption">Legenda da Imagem 2</div>
+            </div>
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo3.avif" alt="Imagem 3">
+              <div class="caption">Legenda da Imagem 3</div>
+            </div>
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo2.avif" alt="Imagem 4">
+              <div class="caption">Legenda da Imagem 4</div>
+            </div>
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo3.avif" alt="Imagem 5">
+              <div class="caption">Legenda da Imagem 5</div>
+            </div>
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo1.webp" alt="Imagem 6">
+              <div class="caption">Legenda da Imagem 6</div>
+            </div>
+            <div class="swiper-slide">
+              <img class="carousel-image" src="./build/images/ultimos jogos/ultimo2.avif" alt="Imagem 7">
+              <div class="caption">Legenda da Imagem 7</div>
+            </div>
+            <!-- Adicione mais slides conforme necessário -->
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+        </div>
+      </section>
+    
+    
+    
+    
+ 
     <script src="/source/js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
 </body>
 </html>

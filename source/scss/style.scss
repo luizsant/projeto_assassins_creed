@@ -1,7 +1,8 @@
 @use 'header';
 @use 'hero';
-@use 'ultimosjogos'
-;
+@use 'ultimosjogos';
+@use 'slides';
+
 @font-face {
     font-family: Ubisoft Sans;
     src: url(/fonts/fonts/Ubisoft\ Sans\ Regular.woff2);
