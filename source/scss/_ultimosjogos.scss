@@ -54,23 +54,8 @@
 .card button {
     position: relative;
     background-color: #588b72;
-    color: #ffffff;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    overflow: hidden;
-    z-index: 1;
-    margin-bottom: 10px;
-}
-
-.card button {
-    position: relative;
-    background-color: #588b72;
+    border: 2px solid;
+    margin-top: 15px;
     color: #ffffff;
     padding: 15px 25px;
     margin-top: 15px;
@@ -83,7 +68,10 @@
     letter-spacing: 2px;
     overflow: hidden;
     z-index: 1;
+    margin-bottom: 10px;
 }
+
+
 
 .card button:hover {
     background-color: transparent;
