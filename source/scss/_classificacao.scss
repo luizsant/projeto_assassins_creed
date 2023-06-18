@@ -3,10 +3,6 @@
     flex-direction: column;
     padding: 20px;
     padding-bottom: 40px;
-    p {
-        font-size: 24px;
-        
-    }
   }
   
   .first-row {
@@ -30,34 +26,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    
   }
-  
-  
   
   .grid-item {
     text-align: center;
   }
   
-  .grid-item {
-
-    .redes {
-        display: inline-block;
-        max-width: 100px;
-        height: auto;
-        margin-top: 10px;
-        margin-right: 5px;
-        background-color: #e8e8e8;
-        padding: 5px;
-        transition: transform 0.3s ease, opacity 0.3s ease;
-        cursor: pointer;
-      }
-      
-      .redes:hover {
-        transform: translateY(-3px);
-        opacity: 0.8;
-      }
+  .grid-item .redes {
+    display: inline-block;
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #e8e8e8;
+    padding: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
   }
+  
+  .grid-item .redes:hover {
+    transform: translateY(-3px);
+    opacity: 0.8;
+  }
+  
   #rating {
     display: inline-block;
     max-width: 380px;
@@ -65,16 +56,49 @@
     margin-top: 10px;
     margin-right: 5px;
   }
+  
   .text-aviso {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%; 
+    height: 100%;
     grid-column: span 2;
     padding: 20px 20%;
-    p {
-        font-size: 16px;
-        color: #a8a3a3;
   }
-}
+  
+  .text-aviso p {
+    font-size: 16px;
+    color: #a8a3a3;
+  }
+  
+  section.promo {
+    margin-bottom: -20px;
+  }
+  
+  .promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 80px;
+    min-height: 80px;
+    overflow: auto;
+    z-index: 9999; /* Adicione o z-index aqui */
+  }
+  
+  
+  .images {
+    display: flex;
+    align-items: center;
+  }
+  
+  .promo a img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .promo-spacer {
+    height: 80px; /* Altura da seção promo */
+  }
+  

@@ -3,6 +3,8 @@
     width: 100%;
     overflow: hidden;
     margin-bottom: 40px;
+    
+    
   }
   
   .swiper-container {
@@ -130,4 +132,8 @@
     transform: translateX(-50%);
     z-index: 9998;
   }
-  
+  .fill {
+    background-color: #000;
+    flex-grow: 1;
+    height: calc(100vh - 80px); /* Substitua "80px" pela altura do seu footer */
+  }
